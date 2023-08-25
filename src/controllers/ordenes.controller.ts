@@ -20,3 +20,15 @@ export const obtenerUnaOrden =(req:Request, res:Response) => {
     })
     .catch((error) => console.log(error));
 }
+
+// Obtener ordenes por estado
+export const obtenerOrdenesPorEstado =(req:Request, res:Response) => {
+
+    const estadoBuscado = "disponible"; 
+    ordenSchema.find({estado:req.params.estado},{})
+    .then((result) => {
+        res.send(result);
+        res.end();
+    })  
+    .catch((error) => console.error(error));
+}
