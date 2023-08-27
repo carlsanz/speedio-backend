@@ -1,0 +1,116 @@
+[{
+  "_id": {
+    "$oid": "64e4f48011ba397fa742e8ed"
+  },
+  "nombre": "Juan",
+  "apellido": "Pérez",
+  "username": "juanperez",
+  "telefono": "123456789",
+  "correo_electronico": "juan@example.com",
+  "direccion": "Calle Principal #123",
+  "contrasena": "P@ssw0rd123"
+},
+{
+  "_id": {
+    "$oid": "64e4f48011ba397fa742e8ee"
+  },
+  "nombre": "María",
+  "apellido": "Gómez",
+  "username": "mariagomez",
+  "telefono": "987654321",
+  "correo_electronico": "maria@example.com",
+  "direccion": "Avenida Central #456",
+  "contrasena": "SecurePass456"
+},
+{
+  "_id": {
+    "$oid": "64e4f48011ba397fa742e8ef"
+  },
+  "nombre": "Luis",
+  "apellido": "Rodríguez",
+  "username": "luisrod",
+  "telefono": "555555555",
+  "correo_electronico": "luis@example.com",
+  "direccion": "Calle 3ra #789",
+  "contrasena": "LuisPwd789"
+},
+{
+  "_id": {
+    "$oid": "64e4f48011ba397fa742e8f0"
+  },
+  "nombre": "Ana",
+  "apellido": "Martínez",
+  "username": "anamart",
+  "telefono": "111111111",
+  "correo_electronico": "ana@example.com",
+  "direccion": "Avenida 2da #456",
+  "contrasena": "AnaSecure456"
+},
+{
+  "_id": {
+    "$oid": "64e4f48011ba397fa742e8f1"
+  },
+  "nombre": "Carlos",
+  "apellido": "López",
+  "username": "carloslopez",
+  "telefono": "555555555",
+  "correo_electronico": "carlos@example.com",
+  "direccion": "Avenida 5ta #789",
+  "contrasena": "CarlosPwd123"
+},
+{
+  "_id": {
+    "$oid": "64e4f48011ba397fa742e8f2"
+  },
+  "nombre": "Sofía",
+  "apellido": "García",
+  "username": "sofiagarcia",
+  "telefono": "999999999",
+  "correo_electronico": "sofia@example.com",
+  "direccion": "Calle 10 #456",
+  "contrasena": "SofiaPass789"
+},
+{
+  "_id": {
+    "$oid": "64e83792c7bed708c58d7346"
+  },
+  "nombre": "Camaronesi",
+  "apellido": "Mejia",
+  "telefono": "9854424114",
+  "correo_electronico": "Camaronesi@example.com",
+  "contrasena": "camMejia",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e83fb7c7bed708c58d7348"
+  },
+  "nombre": "Naruto",
+  "apellido": "Gutierrez",
+  "telefono": "95642451",
+  "correo_electronico": "naruto@example.com",
+  "contrasena": "asd.456",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e8419bc7bed708c58d7350"
+  },
+  "nombre": "Tobi",
+  "apellido": "Marquez",
+  "telefono": "95878742",
+  "correo_electronico": "tobi@gmail.com",
+  "contrasena": "asd.456",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64eafbbf505cc4bdd60708db"
+  },
+  "nombre": "Carlos",
+  "apellido": "Sanchez",
+  "telefono": "32564897",
+  "correo_electronico": "carlosanchez@example.com",
+  "contrasena": "asd.456",
+  "__v": 0
+}]

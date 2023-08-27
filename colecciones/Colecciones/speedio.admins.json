@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "64e68063664324dfe0528e77"
+  },
+  "nombre": "Ana",
+  "apellido": "García",
+  "telefono": "555-123-4567",
+  "correo_electronico": "ana@example.com",
+  "contraseña": "AdminPass123",
+  "cargo": "Gerente"
+},
+{
+  "_id": {
+    "$oid": "64e68063664324dfe0528e78"
+  },
+  "nombre": "Carlos",
+  "apellido": "Martínez",
+  "telefono": "555-987-6543",
+  "correo_electronico": "carlos@example.com",
+  "contraseña": "AdminSecure456",
+  "cargo": "Supervisor"
+},
+{
+  "_id": {
+    "$oid": "64e68063664324dfe0528e79"
+  },
+  "nombre": "María",
+  "apellido": "López",
+  "telefono": "555-456-7890",
+  "correo_electronico": "maria@example.com",
+  "contraseña": "AdminPwd789",
+  "cargo": "Coordinador"
+},
+{
+  "_id": {
+    "$oid": "64e68063664324dfe0528e7a"
+  },
+  "nombre": "José",
+  "apellido": "Pérez",
+  "telefono": "555-111-2222",
+  "correo_electronico": "jose@example.com",
+  "contraseña": "AdminPass456",
+  "cargo": "Analista"
+},
+{
+  "_id": {
+    "$oid": "64e68063664324dfe0528e7b"
+  },
+  "nombre": "Laura",
+  "apellido": "Gómez",
+  "telefono": "555-333-4444",
+  "correo_electronico": "laura@example.com",
+  "contraseña": "AdminSecure789",
+  "cargo": "Especialista"
+}]

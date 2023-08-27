@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "64e59c746ea3db4beabe6686"
+  },
+  "numero_orden": "ORD123",
+  "destino": "Calle 456, Ciudad A",
+  "precio_total": 250,
+  "estado": "disponible"
+},
+{
+  "_id": {
+    "$oid": "64e59c746ea3db4beabe6687"
+  },
+  "numero_orden": "ORD124",
+  "destino": "Avenida 789, Ciudad B",
+  "precio_total": 150,
+  "estado": "tomada"
+},
+{
+  "_id": {
+    "$oid": "64e59c746ea3db4beabe6688"
+  },
+  "numero_orden": "ORD125",
+  "destino": "Plaza 123, Ciudad C",
+  "precio_total": 180,
+  "estado": "disponible"
+},
+{
+  "_id": {
+    "$oid": "64e59c746ea3db4beabe6689"
+  },
+  "numero_orden": "ORD126",
+  "destino": "Calle Principal, Ciudad X",
+  "precio_total": 300,
+  "estado": "entregada"
+},
+{
+  "_id": {
+    "$oid": "64e59c746ea3db4beabe668a"
+  },
+  "numero_orden": "ORD127",
+  "destino": "Avenida Central, Ciudad Y",
+  "precio_total": 120,
+  "estado": "tomada"
+},
+{
+  "_id": {
+    "$oid": "64e59c746ea3db4beabe668b"
+  },
+  "numero_orden": "ORD128",
+  "destino": "Calle 789, Ciudad D",
+  "precio_total": 210,
+  "estado": "disponible"
+},
+{
+  "_id": {
+    "$oid": "64e59c746ea3db4beabe668c"
+  },
+  "numero_orden": "ORD129",
+  "destino": "Avenida 123, Ciudad E",
+  "precio_total": 175,
+  "estado": "entregada"
+},
+{
+  "_id": {
+    "$oid": "64e59c746ea3db4beabe668d"
+  },
+  "numero_orden": "ORD130",
+  "destino": "Plaza Principal, Ciudad F",
+  "precio_total": 140,
+  "estado": "tomada"
+},
+{
+  "_id": {
+    "$oid": "64e59c746ea3db4beabe668e"
+  },
+  "numero_orden": "ORD131",
+  "destino": "Calle Central, Ciudad G",
+  "precio_total": 260,
+  "estado": "disponible"
+},
+{
+  "_id": {
+    "$oid": "64e59c746ea3db4beabe668f"
+  },
+  "numero_orden": "ORD132",
+  "destino": "Avenida 456, Ciudad H",
+  "precio_total": 190,
+  "estado": "tomada"
+},
+{
+  "_id": {
+    "$oid": "64e59c746ea3db4beabe6690"
+  },
+  "numero_orden": "ORD133",
+  "destino": "Calle 789, Ciudad I",
+  "precio_total": 220,
+  "estado": "disponible"
+},
+{
+  "_id": {
+    "$oid": "64e59c746ea3db4beabe6691"
+  },
+  "numero_orden": "ORD134",
+  "destino": "Avenida 123, Ciudad J",
+  "precio_total": 185,
+  "estado": "entregada"
+},
+{
+  "_id": {
+    "$oid": "64e59c746ea3db4beabe6692"
+  },
+  "numero_orden": "ORD135",
+  "destino": "Plaza Principal, Ciudad K",
+  "precio_total": 160,
+  "estado": "tomada"
+},
+{
+  "_id": {
+    "$oid": "64e59c746ea3db4beabe6693"
+  },
+  "numero_orden": "ORD136",
+  "destino": "Calle Central, Ciudad L",
+  "precio_total": 270,
+  "estado": "disponible"
+},
+{
+  "_id": {
+    "$oid": "64e59c746ea3db4beabe6694"
+  },
+  "numero_orden": "ORD137",
+  "destino": "Avenida 456, Ciudad M",
+  "precio_total": 200,
+  "estado": "tomada"
+}]

@@ -1,0 +1,131 @@
+[{
+  "_id": {
+    "$oid": "64e594176ea3db4beabe6674"
+  },
+  "nombre": "Juan",
+  "apellido": "Pérez",
+  "telefono": "123456789",
+  "correo_electronico": "juan@example.com",
+  "direccion": "Calle Principal #123",
+  "licencia_conducir": "123ABC",
+  "motocicleta": {
+    "marca": "Honda",
+    "modelo": "CBR 600",
+    "anno": 2022,
+    "placa": "M123XYZ"
+  },
+  "pedidos": [
+    {
+      "id_pedido": "pedido_id_1",
+      "fecha": "2023-08-22",
+      "estado": "En proceso",
+      "numero_orden": "ORD135",
+      "destino": "Col. san Juan"
+    },
+    {
+      "id_pedido": "pedido_id_2",
+      "fecha": "2023-08-23",
+      "estado": "Entregado",
+      "destino": "Residencial las Uvas",
+      "numero_orden": "ORD156"
+    }
+  ],
+  "contrasena": "MotoristPwd123",
+  "estado": "activo"
+},
+{
+  "_id": {
+    "$oid": "64e594176ea3db4beabe6675"
+  },
+  "nombre": "María",
+  "apellido": "Gómez",
+  "telefono": "987654321",
+  "correo_electronico": "maria@example.com",
+  "direccion": "Avenida Central #456",
+  "licencia_conducir": "456DEF",
+  "motocicleta": {
+    "marca": "Kawasaki",
+    "modelo": "Ninja 400",
+    "anno": 2021,
+    "placa": "M456ABC"
+  },
+  "pedidos": [
+    {
+      "id_pedido": "pedido_id_3",
+      "fecha": "2023-08-24",
+      "estado": "En proceso",
+      "numero_orden": "ORD196",
+      "destino": "Colonia los Olivos"
+    }
+  ],
+  "contrasena": "BikerPass456",
+  "estado": "activo"
+},
+{
+  "_id": {
+    "$oid": "64e594176ea3db4beabe6676"
+  },
+  "nombre": "Luis",
+  "apellido": "Rodríguez",
+  "telefono": "555555555",
+  "correo_electronico": "luis@example.com",
+  "direccion": "Calle 3ra #789",
+  "licencia_conducir": "789GHI",
+  "motocicleta": {
+    "marca": "Yamaha",
+    "modelo": "YZF-R6",
+    "anno": 2023,
+    "placa": "M789JKL"
+  },
+  "pedidos": [],
+  "contrasena": "LuisPwd789",
+  "estado": "sin_pedido"
+},
+{
+  "_id": {
+    "$oid": "64e594176ea3db4beabe6677"
+  },
+  "nombre": "Ana",
+  "apellido": "Martínez",
+  "telefono": "111111111",
+  "correo_electronico": "ana@example.com",
+  "direccion": "Avenida 2da #456",
+  "licencia_conducir": "987ZYX",
+  "motocicleta": {
+    "marca": "Suzuki",
+    "modelo": "GSX-R750",
+    "anno": 2022,
+    "placa": "M987WVU"
+  },
+  "pedidos": [
+    {
+      "id_pedido": "pedido_id_4",
+      "fecha": "2023-08-25",
+      "estado": "Entregado",
+      "numero_orden": "ORD201",
+      "destino": "Colonia Miraflores"
+    }
+  ],
+  "contrasena": "AnaSecure456",
+  "estado": "activo"
+},
+{
+  "_id": {
+    "$oid": "64e594176ea3db4beabe6678"
+  },
+  "nombre": "Carlos",
+  "apellido": "López",
+  "telefono": "777777777",
+  "correo_electronico": "carlos@example.com",
+  "direccion": "Avenida 5ta #789",
+  "licencia_conducir": "555XYZ",
+  "motocicleta": {
+    "marca": "Ducati",
+    "modelo": "Monster 821",
+    "anno": 2023,
+    "placa": "M555UVW"
+  },
+  "pedidos": [],
+  "contrasena": "CarlosPwd123",
+  "estado": "sin_pedido"
+}]
