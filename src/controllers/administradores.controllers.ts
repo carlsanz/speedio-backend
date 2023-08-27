@@ -18,3 +18,15 @@ export const admin =(req:Request, res:Response) => {
     })
     .catch((error) => console.log(error));
 }
+
+
+export const loginAdmin = async (req:Request, res:Response)=> {
+    const admin = await adminSchema.findOne({correo_electronico:req.body.correo_electronico, contraseña:req.body.contraseña} , {contraseña:false});
+    if(admin) {
+        res.send({status:true, mensaje:'Credenciales Validas', admin})
+    }else {
+        res.send({status:false, mensaje:'Credenciales invalidas'})
+    }
+    res.end();
+
+}

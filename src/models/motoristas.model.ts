@@ -8,9 +8,11 @@ export interface motorista {
     correo_electronico?:string;
     contraseña?:string;
     direccion?:string;
-    licencia_conducir?:string
+    licencia_conducir?:string;
     motocicleta?:motocicleta;
     pedidos?:Array<pedidos>;
+    estado:string;
+
 }
 
 export interface motocicleta {

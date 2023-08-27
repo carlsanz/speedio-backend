@@ -1,5 +1,5 @@
 import express from 'express';
-import { admin, obtenerAdmin } from '../controllers/administradores.controllers';
+import { admin, loginAdmin, obtenerAdmin } from '../controllers/administradores.controllers';
 
 
 const router = express.Router();
@@ -9,5 +9,7 @@ router.get("/", obtenerAdmin);
 //obtener un administrador
 // http://localhost/admin/:_id
 router.get("/:_id", admin);
+
+router.post("/login", loginAdmin)
 
 export default router;

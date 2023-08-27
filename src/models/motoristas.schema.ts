@@ -10,7 +10,9 @@ const schema= new mongoose.Schema<motorista> ({
     direccion:String,
     licencia_conducir:String,
     motocicleta:Object,
-    pedidos:Array<pedidos>
+    pedidos:Array<pedidos>,
+    estado:String,
+
 });
 
 export const motoristaSchema = mongoose.model('motoristas',schema);

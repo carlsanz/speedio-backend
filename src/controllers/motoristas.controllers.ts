@@ -32,3 +32,22 @@ export const loginMotorista = async (req:Request, res:Response)=> {
     res.end();
 
 }
+
+// motoristas sin pedido y motoristas activos
+export const motoristaPorEstado= async(req:Request, res:Response) => {
+    motoristaSchema.find({estado:req.params.estado},{})
+    .then((result) => {
+        res.send(result);
+        res.end();
+    })  
+    .catch((error) => console.error(error));
+}
+
+// export const obtenerOrdenesPorEstado =(req:Request, res:Response) => {
+//     ordenSchema.find({estado:req.params.estado},{})
+//     .then((result) => {
+//         res.send(result);
+//         res.end();
+//     })  
+//     .catch((error) => console.error(error));
+// }
