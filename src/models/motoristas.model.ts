@@ -26,4 +26,6 @@ export interface pedidos {
     id_pedido:string;
     fecha:string;
     estado:string;
+    numero_orden:string;
+    destino:string
 }
